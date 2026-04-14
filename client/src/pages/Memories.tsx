@@ -103,7 +103,7 @@ export default function Memories() {
       url: "/mem4.jpg",
       type: "image",
       caption: "Bhaav nhi mila tab bhi 😏",
-      date: "Volfest",
+      date: "Retreat 2026",
       rotation: 2
     },
     {
@@ -111,7 +111,7 @@ export default function Memories() {
       url: "/mem5.jpg",
       type: "image",
       caption: "Dono muskura rahe the... reasons alag the 🙃",
-      date: "Volfest",
+      date: "Retreat 2026",
       rotation: 5
     },
     {
@@ -119,7 +119,7 @@ export default function Memories() {
       url: "/mem6.jpg",
       type: "image",
       caption: "Woh dekh rha tha, woh ignore kr rhi thi 💀",
-      date: "Volfest",
+      date: "Retreat 2026",
       rotation: -3
     }
   ];
