@@ -6,9 +6,9 @@ export function Navigation() {
   const [location] = useLocation();
 
   const links = [
-    { href: "/story", label: "Story Time" },
+    { href: "/story", label: "here's Ur time" },
     { href: "/memories", label: "Memories" },
-    { href: "/surprise", label: "Surprise" },
+    { href: "/surprise", label: "please maan jao ab" },
     { href: "/final", label: "For You" },
   ];
 
@@ -20,8 +20,8 @@ export function Navigation() {
         {links.map((link) => {
           const isActive = location === link.href;
           return (
-            <Link 
-              key={link.href} 
+            <Link
+              key={link.href}
               href={link.href}
               className={cn(
                 "relative text-sm font-medium transition-colors duration-200",
